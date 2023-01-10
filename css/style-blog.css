@@ -1,0 +1,188 @@
+* {
+	list-style: none;
+	text-decoration: none;
+	font-family: verdana, tahoma, arial, sans-serif;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: aliceblue;
+}
+
+/*Design la section menu latérral*/
+.sidebar{
+	height: 100%;
+	width: 250px;
+	background-color: rgb(5, 68, 104);
+	top: 0;
+	left: 0;
+	position: fixed;
+	padding: 20px 0;
+}
+/*Design du profil*/
+.profil{
+	margin-bottom: 30px;
+	text-align: center;
+	color: whitesmoke;
+}
+.profil img{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	display: block;
+	margin: 0 auto;
+	border: 10px solid rgb(32, 44, 69);
+}
+.profil h3 {
+	text-transform: uppercase;
+	color: #FFF;
+	font-size: 1.2em;
+	margin-top: 10px;
+}
+.profil p{
+	font-style: italic;
+	font-size: 1.3em;
+	color: rgb(160, 175, 210);
+}
+
+/*Design des liens*/
+.sidebar ul li a {
+	display: block;
+	color: #FFF;
+	padding: 12px 30px;
+	font-size: 16px;
+	border-bottom: 1px solid #10558D;
+}
+.sidebar ul li a:hover, .active {
+	background-color: #FFF;
+	color: darkblue;
+	border-right: 2px solid darkblue;
+}
+.active {
+	color: darkblue !important;
+}
+
+/*Design de la section contenu du blog*/
+section{
+	width: calc(100% - 250px);
+	margin-left: 250px;
+}
+.header{
+	background-color: rgb(32, 44, 69);
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.header a {
+	color: whitesmoke;
+	font-size: 1.3em;
+}
+.header a:hover{
+	color: lightblue;
+	font-size: 1.4em;
+}
+
+/*Design de la banniere*/
+section .banner{
+	height: 243px;
+	background-color: rgb(5, 105, 185);
+	/*display: flex;
+	align-items: center;
+	justify-content: center;*/
+}
+.title h2{
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 2em;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.trait{
+	/*position: fixed;*/
+	height: 10px;
+	background-color: rgb(255, 255, 225);
+	width: 50%;
+	margin: 30px auto;
+}
+.btn{
+	width: 25%;
+	margin: auto;
+}
+.btn button{
+	font-size: 1.8em;
+	padding: 10px;
+	background-color: blue;
+	color: #FFF;
+	border: none;
+	border-radius: 8px;
+}
+.btn button:hover{
+	background-color: #FFF;
+	color: darkblue;
+}
+.blog-content {
+	padding: 30px;
+}
+
+.img-article img{
+	width: 200px;
+	float: left;
+	margin-right: 20px;
+}
+/*Design de la section article 2*/
+.article-2{
+	padding: 30px;
+}
+.img-article-2 img{
+	width: 200px;
+	float: left;
+	margin-right: 20px;
+}
+/*Design de la section newletter*/
+.newletter{
+	height: 220px;
+	background-color: rgb(7, 105, 185);
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+	color: #fff;
+}
+.newletter h3{
+	padding-top: 20px;
+	font-size: 1.8em;
+	text-transform: uppercase;
+	font-style: italic;
+	font-family: cursive, arial, sans-serif;
+}
+.newletter p{
+	font-size: 18px;
+	color: aliceblue;
+}
+.chmp{
+   	padding: 15px;
+}
+.chmp input{
+	font-size: 25px;
+}
+.chmp button{
+	font-size: 22px;
+	background-color: darkblue;
+	color: white;
+	border: none;
+	padding: 5px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+/*Design pied de page*/
+.footer{
+	height: 50px;
+	background-color: rgb(32, 44, 69);
+	color: aliceblue;
+	text-align: center;
+	padding: 15px;
+	font-size: 20px;
+}

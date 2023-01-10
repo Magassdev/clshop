@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<title>ClShop:page de vente</title>
+
+	<style>
+		.small-img{
+			width: 100px;
+			float: left;
+		}
+		#header{
+			background-color: #050A30;
+		}
+		#title{
+			color: #7EC8E3;
+			text-align: center;
+			padding-top: 35px;
+			line-height: 5px;
+		}
+		#title h2{
+			text-transform: uppercase;
+		}
+		#product-p{
+			background-color: #000;
+			text-align: center;
+			font-size: 1.8em;
+			color: #fff;
+			text-transform: uppercase;
+			margin-top: 10px;
+			}
+			#products-list,#chauss-list{
+				background-color:#000;
+				margin-top: 10px;
+				color: #fff;
+			}
+			.products,.chaussures,.habits{
+				width: 235px;
+				height: 350px;
+				float: left;
+				background-color: #000C66;
+				padding: 10px;
+				margin: 10px;
+				text-align: center;
+				line-height: 5px;
+			}
+			.products .p-images{
+				width: 100%
+
+			}
+			.price{
+				font-family: verdana,arial,sans-serif;
+				font-size: 20px;
+			}
+			.price span{
+				text-transform: uppercase;
+				font-weight: bold;
+				color: #7EC8E3;
+			}
+			.veste,.ch{
+				font-style: italic;
+				font-size: 18px;
+			}
+			 button{
+                 padding: 8px;
+                 background-color: #0000ff;
+                 color: #fff;
+                 border:none;
+                 border-radius: 5px;
+                 font-size: 16px;
+                 cursor: pointer;
+			}
+			/*Design du bloc chaussures*/
+			#chauss{
+				background-color: darkblue;
+				text-align: center;
+				font-size: 1.8em;
+				color: #fff;
+				text-transform: uppercase;
+				margin-top: 10px;
+			}
+			#chauss-list{
+				background-color: darkblue;
+			}
+			.c-images{
+				width: 200PX;
+				height: 200px;
+			}
+			.chaussures{
+				background-color: #050A30;
+			}
+			/**Design du bloc des habits*/
+			#habits-list{
+				background-color: #969ABB;
+				margin-top: 10px;
+			}
+			#habits{
+				background-color:#969ABB;
+				text-align: center;
+				font-size: 1.8em;
+				color: #fff;
+				text-transform: uppercase;
+				margin-top: 10px;
+			}
+			.h-images{
+				width: 200px;
+				height: 200px;
+			}
+			.price-h{
+				font-family: verdana,arial,sans-serif;
+				font-size: 20px;
+				color: #fff;
+			}
+			.price-h span{
+				text-transform: uppercase;
+				font-weight: bold;
+				color: #7EC8E3;
+			}
+			.h{
+			color: #fff;
+			font-family: verdana,arial,sans-serif;
+			font-style: italic;
+			}
+		/*Design du bloc habits fin */
+	</style>
+</head>
+<body>
+<main style="width:1100px;margin:auto;">
+<!-- Debut section en tête de la page -->
+	<div id="header">
+		<img src="img/c2.jpg" style="width:300px; height:200px; float : left;" alt="">
+		<img src="img/v10.jpeg" class="small-img" alt="">
+		<img src="img/v11.jpeg" class="small-img" alt="">
+
+		<div id="title">
+			<h2>Clshop votre boutique en ligne </h2>
+			<h3>Touver le mot magique pour ventre</h3>
+		</div>
+		<br style="clear:both;">
+	</div>
+	<!-- Fin section en tête de la page -->
+
+	<!-- Debut section produits populaire -->
+	<div id="product-p">
+		Produits Populaires
+	</div>
+
+	<div id="products-list">
+		<div class="products">
+			<img src="img/v5.jpeg" class="p-images" alt="">
+			<div class="p-content">
+				<p class="price"><span>Prix:</span>1.500.000 GNF</p>
+				<p class="veste">veste sahiri</p>
+				<button>Achetez maintenant</button>
+			</div>	
+		</div>
+		<div class="products">
+			<img src="img/v6.jpeg" class="p-images" alt="">
+			<div class="p-content">
+				<p class="price"><span>Prix:</span>1.000.000 GNF</p>
+				<p class="veste">veste saheck</p>
+				<button>Achetez maintenant</button>	
+	   	    </div>
+		</div>
+		<div class="products">
+			<img src="img/v9.jpeg" class="p-images" alt="">
+			<div class="p-content">
+				<p class="price"><span>Prix:</span>2.800.000 GNF</p>
+				<p class="veste">veste sitoy</p>
+				<button>Achetez maintenant</button>	
+	   	    </div>
+		</div>
+		<div class="products">
+			<img src="img/v7.jpeg" class="p-images" alt="">
+			<div class="p-content">
+				<p class="price"><span>Prix:</span>3.500.000 GNF</p>
+				<p class="veste">veste sahil</p>
+				<button>Achetez maintenant</button>	
+				<br style="clear:both;">
+	   	    </div>
+		</div>
+
+		  <br style="clear:both;">
+	</div>
+	<!-- Fin section produits populaire -->
+	<!-- Debut section bloc des chaussures -->
+	<div id="chauss">
+		NOS CHAUSSURES
+	</div>
+	<div id="chauss-list">
+		<div class="chaussures">
+	  	  <img src="img/gc2.jpg" class="c-images" alt="">
+			<div class="c-content">
+				<p class="price"><span>Prix:</span>500.000 GNF</p>
+				<p class="ch">Nike</p>
+				<button>Achetez maintenant</button>	
+	   	    </div>
+	  	</div>
+
+	    <div class="chaussures">
+	  	  <img src="img/gc3.jpg" class="c-images" alt="">
+			<div class="c-content">
+				<p class="price"><span>Prix:</span>200.000 GNF</p>
+				<p class="ch">Sport</p>
+				<button>Achetez maintenant</button>	
+	       </div>
+	   	</div> 
+
+		<div class="chaussures">
+	  	  <img src="img/gc4.jpg" class="c-images" alt="">
+			<div class="c-content">
+				<p class="price"><span>Prix:</span>400.000 GNF</p>
+				<p class="ch">Basket</p>
+				<button>Achetez maintenant</button>	
+	   	    </div>
+	  	</div>
+
+	    <div class="chaussures">
+	  	  <img src="img/gc5.jpeg" class="c-images" alt="">
+			<div class="c-content">
+				<p class="price"><span>Prix:</span>600.000 GNF</p>
+				<p class="ch">Jordan</p>
+				<button>Achetez maintenant</button>	
+	   	    </div>
+        </div>
+
+	   <br style="clear:both;">
+
+	</div>
+	<!-- Fin section bloc des chaussures -->
+
+	<!-- Début section habits femmes -->
+	<div id="habits">
+	     LES HABITS
+	</div>
+    <div id="habits-list">
+    	<div class="habits">
+	  	  <img src="img/r1.JPG" class="h-images" alt="">
+			<div class="c-content">
+				<p class="price-h"><span>Prix:</span>900.000 GNF</p>
+				<p class="h">LUXE 1</p>
+				<button>Achetez maintenant</button>	
+	   	    </div>
+	  </div>
+
+    	<div class="habits">
+	  	  <img src="img/r2.png" class="h-images" alt="">
+			<div class="c-content">
+				<p class="price-h"><span>Prix:</span>1.000.000 GNF</p>
+				<p class="h">LUXE 2</p>
+				<button>Achetez maintenant</button>	
+	   	    </div>
+	  </div>
+
+	    <div class="habits">
+	  	  <img src="img/r3.JPG" class="h-images" alt="">
+			<div class="c-content">
+				<p class="price-h"><span>Prix:</span>1.300.000 GNF</p>
+				<p class="h">LUXE 3</p>
+				<button>Achetez maintenant</button>	
+	   	    </div>
+	  </div>
+
+	   <div class="habits">
+	  	  <img src="img/r4.JPG" class="h-images" alt="">
+			<div class="c-content">
+				<p class="price-h"><span>Prix:</span>1.500.000 GNF</p>
+				<p class="h">LUXE 4</p>
+				<button>Achetez maintenant</button>	
+	   	    </div>
+	  </div>
+	  <br style="clear:both;">
+ </div>   
+
+	<!-- Fin section habits femmes -->
+</main>
+
+</body>
+</html>

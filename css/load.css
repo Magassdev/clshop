@@ -1,0 +1,41 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+body{
+	font-family: verdana, arial, sans-serif;
+}
+section{
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: aliceblue;
+}
+.container{
+	padding: 20px 40px;
+	border: 2px solid black;
+	text-transform: uppercase;
+	font-size: 20px;
+	letter-spacing: 10px;
+	position: relative;
+}
+.container::after{
+	content: '';
+	position: absolute;
+	height: 100%;
+	width: 0%;
+	background-color: white;
+	top: 0;
+	left: 0;
+	mix-blend-mode: difference;
+	animation: loader_bg 3s linear infinite alternate;
+}
+/*Animation avec la propriete keyframe*/
+@keyframes loader_bg{
+	100%{
+		width: 100%
+	}
+}
